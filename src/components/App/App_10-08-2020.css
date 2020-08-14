@@ -1,0 +1,223 @@
+.App {
+  text-align: center;
+}
+#qDialog{
+  width:500px !important;
+}
+.textDialog {
+  max-width: 100%;
+  width : 600px;
+  max-height: 100%;
+  height : 600px;
+}
+.table{
+  /* height:100vh !important; */
+  overflow:hidden;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+#my-table,#myTable-Header,#myTable-Notes{
+  display: none;
+}
+nav{
+  border-bottom:5px solid grey;
+  width:100% !important;
+}
+.navbar-brand {
+  text-align: center !important;
+}
+.flex-panel{
+  display:flex;
+  flex-flow: column;
+  width:100vw !important;
+  height: 100vh !important;
+  overflow:scroll !important;
+}
+.flex-panel-main{
+  display:flex;
+  flex-flow: row;
+}
+div.container {
+  width: auto;
+  clear: both;
+  overflow: hidden;
+}
+.popoverStyle{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.popoverStyle .ui.label:hover{
+  background-color: #e6e6e6;
+}
+.popoverStyle .ui.label{
+  transition: all .5s;
+}
+.popoverItemStyle{
+  padding:10px;
+}
+.popover-body{
+  min-width:200px;
+}
+div.container span.label-holder {
+  display: block;
+  width: calc(30% - 10px);
+ 
+  float: left;
+  padding: 5px;
+}
+.itemID{
+  width:5vw;
+}
+.itemUnit{
+  width:5vw;
+}
+.itemUnitPrice{
+  width:5vw;
+}
+.itemTotal{
+  width:5vw;
+}
+.itemQty{
+  width:3vw;
+}
+.QuotationItems tbody td {
+  padding: 0px !important;
+  /* background-color: blue; */
+}
+.quoteTable{
+  height:100vh !important;
+  overflow-y:scroll !important;
+}
+div.container span.checkbox-holder {
+  display: block;
+  width: calc(10% - 10px);
+  clear:both;
+  float: left;
+  padding: 5px;
+}
+div.container span.input-holder {
+  display: block;
+  width: calc(65% - 10px);
+  float: left;
+  padding: 5px;
+}
+span.private-input-holder{
+  display: block;
+  width: calc(65% - 10px);
+  float: left;
+  padding: 5px;
+}
+span.private-label-holder{
+  display: block;
+  width: calc(10% - 10px);
+  clear:both;
+  float: left;
+  padding: 5px;
+}
+span.newcust-label-holder{
+  display: block;
+  width: calc(40% - 10px);
+  clear:both;
+  float: left;
+  padding: 5px;
+}
+span.newcust-input-holder{
+  display: block;
+  width: calc(65% - 10px);
+  float: left;
+  padding: 5px;
+}
+span.newcust-checkbox-holder {
+  display: block;
+  width: calc(10% - 10px);
+  clear:both;
+  float: left;
+  padding: 5px;
+}
+.ReactModal__Overlay{
+  background: rgba(106, 103, 103, 0.42) !important;
+}
+.totalSection{
+  display:flex !important;
+  flex-wrap: wrap-reverse;
+}
+.newCustSection{
+  display:flex !important;
+  flex-wrap: wrap;
+}
+#QuotationNotes{
+  width:100%;
+}
+#signatureBox{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.photoAttachTable{
+  width:80% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pdfAttachTable{
+  margin-left: auto;
+  margin-right: auto;
+}
+div.container span.input-holder input[type="text"]{
+  width: 100%;
+}
+.tab-content{
+  background-color: #e6e6e6;
+  height:100% !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  background-color:#e6e6e6 !important;
+}
+.flex-panel{
+  /* min-height:960px; */
+}
+.pro-sidebar{
+  height:100vh !important;
+  z-index:0 !important;
+}
+.NavHeader{
+  width:100vw !important;
+}
+.NavHeader-wrapper{
+  width:100vw !important;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.calculate-btn:hover{
+  color:green;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
